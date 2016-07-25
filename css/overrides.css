@@ -40,10 +40,12 @@ body
 	background-color: transparent;
 }
 
-.navbar-inverse .navbar-nav > li .active{
+.navbar-inverse .nav > .active > a, 
+.navbar-inverse .nav > .active > a:hover{
 	color: darkgreen;
 	background-color: transparent;
 }
+
 
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
