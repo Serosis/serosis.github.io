@@ -1,0 +1,58 @@
+/* TEAM */
+	Web Designer/Admin: kohr-ah_death (A.K.A. Serosis)
+	Contact: http://uqm-mods.sf.net/?page=Contact_Me
+	From: Southern California
+
+/* THANKS */
+	To everybody that made UQM possible.
+
+/* SITE */
+	Language: English
+	Standards: PHP, CSS3, HTML5, Javascript
+	Components: Twitter Bootstrap, Swipebox
+		Base64 File Encoder, CSS/JS Minifier/Cacher, Jquery
+	Software: Sublime Text, FileZilla, Photoshop CS6, Codeanywhere IDE, Google Chrome
+	
+	Component Sources:
+	Bootstrap	- http://getbootstrap.com/
+	Swipebox	- http://brutaldesign.github.io/swipebox/
+	Base64 FE	- http://jpillora.com/base64-encoder/
+	Patternify- http://www.patternify.com/
+	Minifier	- http://metricmarketing.ca/blog/combining-css-or-javascript-files-on-the-fly-with-php
+	Accordion	- http://cssdeck.com/labs/otme9oiw
+	Comm Gifs	- http://www.star-control.com/hosted/happycamper/outfit.html
+	
+	Software Sources:
+	Sublime Text	- http://www.sublimetext.com/
+	FileZilla	- https://filezilla-project.org/
+	Photoshop	- http://www.adobe.com/
+	Codeanywhere	- https://codeanywhere.com
+	Google Chrome	- https://www.google.com/intl/en/chrome/browser/
+	
+/* Changelog */
+2016
+	4/29	Cleaning up code and removing unnecessary implementations... Open Source is still a ways away
+	4/25	Implemented a PHP script to rotate between a set of images for the Orbit page
+	?/??	De-implented audio.js and went for a simpler <audio> embed in a pop-up
+	2/25	Implemented audio.js for music controls
+	2/18	Fixed full screen backgrounds for mobile
+	2/16	Added a "Music Gallery" dropdown to the navbar to ease navigation for the music remasters
+	
+2015
+	03/16	Fixed some code, prepped for more remasters, and added a few hidden extras.
+	03/04	Got rid of that god awful Kzer-Za remaster I made and updated it with a kick-ass Thraddash midi remaster
+			Added an asynchronous loader for the backgrounds css using loadCSS
+	01/29	Getting the site ready for open source
+
+2014
+	09/07	Was bothered by the accordion mechanics a bit so I replaced it with a CSS3 checkbox accordion.
+			This one has a bit more control over the height of each content section.
+	08/10	Gave it a look over, nothing jumps out as a "need to fix now" situation.
+	08/08	Testing a new pure CSS3 accordion style for the Downloads section, and more massive code cleanup.
+	08/07	Major CSS cleanup, many unnecessary classes removed. Fixed the image galleries, removed VelocityJS
+			and removed the Thumbnailing script. Now exclusively using Codeanywhere for the UQM-Mods site.
+			Moved the datauri backgrounds to their own separate .css file to save loading(and saving times).
+	08/04	Added full stops to FAQ(Now F.A.Q.) using css attribute selectors
+	07/31	More code cleanup, and some commenting in my PHP code
+	07/28	New Thumbnailing script, more code cleanup, new text to png creator I cocked up
+	07/25	Using new CSS/JS minifiers
