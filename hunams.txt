@@ -8,7 +8,7 @@
 
 /* SITE */
 	Language: English
-	Standards: PHP, CSS3, HTML5, Javascript
+	Standards: CSS3, HTML5, Javascript
 	Components: Twitter Bootstrap, Swipebox
 		Base64 File Encoder, CSS/JS Minifier/Cacher, Jquery
 	Software: Sublime Text, FileZilla, Photoshop CS6, Codeanywhere IDE, Google Chrome

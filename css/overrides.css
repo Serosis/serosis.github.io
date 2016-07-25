@@ -1,21 +1,21 @@
 /*Fonts*/
 
 @font-face {
-    font-family: 'sf-new-republic';
-    src: url('../fonts/sf_new_republic-webfont.woff') format('woff'),
-         url('../fonts/sf_new_republic-webfont.ttf') format('truetype'),
-    	 url('../fonts/sf_new_republic-webfont.eot');
-    font-weight: normal;
-    font-style: normal;
+		font-family: 'sf-new-republic';
+		src: url('../fonts/sf_new_republic-webfont.woff') format('woff'),
+				 url('../fonts/sf_new_republic-webfont.ttf') format('truetype'),
+			 url('../fonts/sf_new_republic-webfont.eot');
+		font-weight: normal;
+		font-style: normal;
 }
 
 @font-face {
-    font-family: 'matisse_itcregular';
-    src: url('../fonts/matisse_itc-webfont.woff') format('woff'),
-         url('../fonts/matisse_itc-webfont.ttf') format('truetype'),
-         url('../fonts/matisse_itc-webfont.eot');
-    font-weight: normal;
-    font-style: normal;
+		font-family: 'matisse_itcregular';
+		src: url('../fonts/matisse_itc-webfont.woff') format('woff'),
+				 url('../fonts/matisse_itc-webfont.ttf') format('truetype'),
+				 url('../fonts/matisse_itc-webfont.eot');
+		font-weight: normal;
+		font-style: normal;
 
 }
 
@@ -35,23 +35,24 @@ body
 }
 
 .navbar-inverse .navbar-nav > li > a:hover,
-.navbar-inverse .navbar-nav > li > a:focus {
-  color: #555;
-  background-color: transparent;
+.navbar-inverse .navbar-nav > li > a:focus,
+.navbar-inverse .navbar-nav > li > a:active {
+	color: #555;
+	background-color: transparent;
 }
 
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
-  color: #555;
-  text-decoration: none;
-  background-color: transparent;
+	color: #555;
+	text-decoration: none;
+	background-color: transparent;
 }
 
 .navbar-inverse .nav li.dropdown.open > .dropdown-toggle,
 .navbar-inverse .nav li.dropdown.active > .dropdown-toggle,
 .navbar-inverse .nav li.dropdown.open.active > .dropdown-toggle {
-  background-color: transparent;
-  color: #555;
+	background-color: transparent;
+	color: #555;
 }
 
 .navbar .nav > li > a{
@@ -81,13 +82,13 @@ body
 	background-color: transparent;
 	background: none;
 	border: 0;
-  float: left;
-  min-width: 0;
-  padding: 0;
-  margin: 0;
-  font-size: 0;
-  text-align: none;
-  background-color: #fff;
+	float: left;
+	min-width: 0;
+	padding: 0;
+	margin: 0;
+	font-size: 0;
+	text-align: none;
+	background-color: #fff;
 }
 
 .dropdown-menu > li > a{
@@ -127,26 +128,26 @@ h2,h4{
 }
 
 a:link {
-    color: darkred;
-    text-decoration: none;
+		color: darkred;
+		text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-    color: darkred;
-    text-decoration: none;
+		color: darkred;
+		text-decoration: none;
 }
 
 /* mouse over link */
 a:hover {
-    color: darkgreen;
-    text-decoration: none;
+		color: darkgreen;
+		text-decoration: none;
 }
 
 /* selected link */
 a:active {
-    color: darkgreen;
-    text-decoration: none;
+		color: darkgreen;
+		text-decoration: none;
 }
 
 a {
@@ -171,12 +172,12 @@ a {
 		padding-top:160px;
 	}
 	.navbar .navbar-nav{
-	    float: none;
-	    text-align: center;
+			float: none;
+			text-align: center;
 	}
 	.navbar .navbar-nav > li{
-	    float: none;
-	    display: inline-block;
+			float: none;
+			display: inline-block;
 	}
 }
 @media(min-width:992px){
@@ -193,15 +194,15 @@ a {
 /* Bootstrap Additions */
 
 .navbar-center {
-  float: right;
+	float: right;
 
-  position: relative;
-  left: -50%; /* or right 50% */
-  text-align: left;
+	position: relative;
+	left: -50%; /* or right 50% */
+	text-align: left;
 }
 
 .well-xs {
-  padding: 3px;
+	padding: 3px;
 }
 
 /* Additions */
