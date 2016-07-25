@@ -764,8 +764,8 @@ select:focus:invalid:focus {
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
-  color: #ffffff;
-  background-color: #080808;
+  color: darkgreen;
+  background-color: transparent;
 }
 
 .navbar-inverse .navbar-nav > .disabled > a,
@@ -866,9 +866,9 @@ select:focus:invalid:focus {
 }
 .navbar-inverse .nav > .active > a,
 .navbar-inverse .nav > .active > a:hover {
-  background-color: #e5e5e5;
+  background-color: transparent;
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125) inset;
-  color: #555555;
+  color: darkgreen;
 }
 .navbar-inverse .nav li.dropdown.open > .dropdown-toggle,
 .navbar-inverse .nav li.dropdown.active > .dropdown-toggle,
