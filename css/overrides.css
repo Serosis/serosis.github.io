@@ -43,6 +43,7 @@ section {
 }
 .header hr {
 	margin: 30px auto;
+	width: 20px;
 }
 .header p {
 	font-weight: 300;
