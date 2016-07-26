@@ -383,18 +383,7 @@ html.swipebox-html.swipebox-touch {
 }
 
 /* Accordion */
-
-.accordion{
-	width: auto;
-	padding: 1px 5px 5px 5px;
-	background-color: black;
-	background-color: rgba(0, 0, 0, 0.3);
-
-	-webkit-box-shadow: 0 1px 0 rgba(255,255,255, .05);
-	-moz-box-shadow: 0 1px 0 rgba(255,255,255, .05);
-	box-shadow: 0 1px 0 rgba(255,255,255, .05);
-}
-.accordion label{
+.Releases label{
 	display: block;
 	height: 35px;
 	margin-top: 4px;
@@ -403,178 +392,47 @@ html.swipebox-html.swipebox-touch {
 	text-decoration: none;
 	color: darkred;
 	text-shadow: 1px 1px 0 rgba(0,0,0, .2);
-	background-color: black;
-	background-color: rgba(0, 0, 0, 0.3);
-
-	-webkit-box-shadow: 0 1px 0 rgba(0,0,0, .1), inset 0 1px 0 rgba(255,255,255, .1);
-	-moz-box-shadow: 0 1px 0 rgba(0,0,0, .1), inset 0 1px 0 rgba(255,255,255, .1);
-	box-shadow: 0 1px 0 rgba(0,0,0, .1), inset 0 1px 0 rgba(255,255,255, .1);
-}
-.accordion label:hover{
-	color: #555;
-	text-shadow: 0 1px 0 rgba(255,255,255, .15);
-	background-color: rgba(0, 100, 0, 0.3);
-
-	-webkit-box-shadow: 1px 1px 1px rgba(0,0,0, .3), inset 1px 1px 1px rgba(255,255,255, .45);
-	-moz-box-shadow: 1px 1px 1px rgba(0,0,0, .3), inset 1px 1px 1px rgba(255,255,255, .45);
-	box-shadow: 1px 1px 1px rgba(0,0,0, .3), inset 1px 1px 1px rgba(255,255,255, .45);
-}
-.accordion input:checked + label,
-.accordion input:checked + label:hover{
-	color: #555;
-	text-shadow: 0px 1px 0px rgba(255,255,255, .15);
-	background-color: rgba(0, 100, 0, 0.3);
-
-	-webkit-box-shadow: 1px 1px 1px rgba(0,0,0, .3), inset 1px 1px 1px rgba(255,255,255, .45);
-	-moz-box-shadow: 1px 1px 1px rgba(0,0,0, .3), inset 1px 1px 1px rgba(255,255,255, .45);
-	box-shadow: 1px 1px 1px rgba(0,0,0, .3), inset 1px 1px 1px rgba(255,255,255, .45);
-}
-
-.accordion input{
-    display: none;
-}
-.accordion section{
-    overflow: hidden;
-    height: 0;
-	-webkit-transition: height 1s ease-in-out;
-	-moz-transition: height 1s ease-in-out;
-	-ms-transition: height 1s ease-in-out;
-	-o-transition: height 1s ease-in-out;
-	transition: height 1s ease-in-out;
-}
-.accordion input:checked ~ section{
-	-webkit-transition: height 1s ease-in-out;
-	-moz-transition: height 1s ease-in-out;
-	-ms-transition: height 1s ease-in-out;
-	-o-transition: height 1s ease-in-out;
-	transition: height 1s ease-in-out;
-}
-.accordion section p{
-	font: 12px/16px Arial, sans-serif;
-	margin: 0 0 10px;
-}
-
-@media (max-width:767px){
-		/* F.A.Q */
-	.accordion input:checked ~ section.install{
-		height: 225px;
-	}
-	.accordion input:checked ~ section.diff{
-		height: 250px;
-	}
-	.accordion input:checked ~ section.vid{
-		height: 240px;
-	}
-	.accordion input:checked ~ section.cheats{
-		height: 200px;
-	}
-
-		/* Downloads */
-	.accordion input:checked ~ section.megamod{
-		height: 190px;
-	}
-	.accordion input:checked ~ section.dcm{
-		height: 130px;
-	}
-	.accordion input:checked ~ section.vids{
-		height: 150px;
-	}
-	.accordion input:checked ~ section.comm{
-		height: 380px;
-	}
-	.accordion input:checked ~ section.misc{
-		height: 100px;
-	}
-}
-@media (min-width:768px){
-		/* F.A.Q */
-	.accordion input:checked ~ section.install{
-		height: 110px;
-	}
-	.accordion input:checked ~ section.diff{
-		height: 120px;
-	}
-	.accordion input:checked ~ section.vid{
-		height: 155px;
-	}
-	.accordion input:checked ~ section.cheats{
-		height: 80px;
-	}
-
-		/* Downloads */
-	.accordion input:checked ~ section.megamod{
-		height: 170px;
-	}
-	.accordion input:checked ~ section.dcm{
-		height: 125px;
-	}
-	.accordion input:checked ~ section.vids{
-		height: 140px;
-	}
-	.accordion input:checked ~ section.comm{
-		height: 380px;
-	}
-	.accordion input:checked ~ section.misc{
-		height: 80px;
-	}
-}
-@media (min-width: 992px){
-		/* F.A.Q */
-	.accordion input:checked ~ section.install{
-		height: 120px;
-	}
-	.accordion input:checked ~ section.diff{
-		height: 140px;
-	}
-
-		/* Downloads */
-	.accordion input:checked ~ section.dcm{
-		height: 125px;
-	}
-	.accordion input:checked ~ section.vids{
-		height: 165px;
-	}
 }
 
 /* Accordion Content Styles */
 
-.accordion section h1 {
-	color: white;
-	font: 18px/32px matisse, sans-serif;
+.Releases h1 {
+  color: white;
+  font: 18px/32px matisse, sans-serif;
 }
 
-.accordion section p {
-	font: 12px/16px Arial, sans-serif;
-	margin: 0 0 10px;
+.Releases p {
+  font: 12px/16px Arial, sans-serif;
+  margin: 0 0 10px;
 }
 
-.accordion section span {
-	font: 14px sf-new-republic, sans-serif;
-	color: darkgreen;
+.Releases span {
+  font: 14px sf-new-republic, sans-serif;
+  color: darkgreen;
 }
 
-.accordion section ul li {
-	font: italic 14px sf-new-republic, sans-serif;
+.Releases ul li {
+  font: italic 14px sf-new-republic, sans-serif;
 }
 
-.accordion section em.bullet {
-	width: 5px;
-	height: 5px;
-	margin: 0 5px;
-	background: #6b8f1a;
-	display: inline-block;
+.Releases em.bullet {
+  width: 5px;
+  height: 5px;
+  margin: 0 5px;
+  background: #6b8f1a;
+  display: inline-block;
 
-	-webkit-box-shadow: inset 1px 1px 1px rgba(255,255,255, 0.4);
-	-moz-box-shadow: inset 1px 1px 1px rgba(255,255,255, 0.4);
-	box-shadow: inset 1px 1px 1px rgba(255,255,255, 0.4);
+  -webkit-box-shadow: inset 1px 1px 1px rgba(255,255,255, 0.4);
+  -moz-box-shadow: inset 1px 1px 1px rgba(255,255,255, 0.4);
+  box-shadow: inset 1px 1px 1px rgba(255,255,255, 0.4);
 
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
 }
 
-.accordion section img {
-	-webkit-box-shadow: 2px 2px 6px rgba(0,0,0, .5);
-	-moz-box-shadow: 2px 2px 6px rgba(0,0,0, .5);
-	box-shadow: 2px 2px 6px rgba(0,0,0, .5);
+.Releases img {
+  -webkit-box-shadow: 2px 2px 6px rgba(0,0,0, .5);
+  -moz-box-shadow: 2px 2px 6px rgba(0,0,0, .5);
+  box-shadow: 2px 2px 6px rgba(0,0,0, .5);
 }
