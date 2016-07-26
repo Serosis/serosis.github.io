@@ -20,7 +20,7 @@
 }
 .Ilwrath,
 .Dill-Rats,
-.Downloads{
+.Releases{
 	background: url(../img/landmarks/backgrounds/Ilwrath.gif) center center fixed;
 	height: 100%;
 	-webkit-background-size: cover;
@@ -29,16 +29,16 @@
 					background-size: cover;
 }
 .VUX,
-.Image_Gallery{
+.Gallery{
 	background: url(../img/landmarks/backgrounds/VUX.gif) center center fixed;
 	height: 100%;
 	-webkit-background-size: cover;
 		 -moz-background-size: cover;
 			 -o-background-size: cover;
-					background-size: cover;
+				background-size: cover;
 }
 .Yehat,
-.Video_Gallery{
+.Videos{
 	background: url(../img/landmarks/backgrounds/Yehat.gif) center center fixed;
 	height: 100%;
 	-webkit-background-size: cover;
@@ -46,7 +46,7 @@
 			 -o-background-size: cover;
 					background-size: cover;
 }
-.Music_Gallery{
+.Music{
 	background: url(../img/landmarks/backgrounds/Starmap.png) center center fixed;
 	height: 100%;
 	-webkit-background-size: cover;
