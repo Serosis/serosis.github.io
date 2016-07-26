@@ -383,13 +383,11 @@ html.swipebox-html.swipebox-touch {
 }
 
 /* Accordion */
-.Releases label{
-	height: 35px;
+.Releases h2{
 	margin-top: 4px;
 	text-align: center;
 	color: #000;
 	text-shadow: darkred 0 0 8px;
-	text-align: center;
 }
 
 /* Accordion Content Styles */
