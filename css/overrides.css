@@ -33,16 +33,16 @@ section {
 }
 
 
-.Home h1 {
+.header h1 {
 	font-weight: 700;
 	text-transform: uppercase;
 	margin-top: 0;
 	margin-bottom: 0;
 }
-.Home hr {
+.header hr {
 	margin: 30px auto;
 }
-.Home p {
+.header p {
 	font-weight: 300;
 	color: rgba(255, 255, 255, 0.7);
 	font-size: 16px;
