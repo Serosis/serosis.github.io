@@ -384,16 +384,12 @@ html.swipebox-html.swipebox-touch {
 
 /* Accordion */
 .Releases label{
-	display: block;
 	height: 35px;
 	margin-top: 4px;
 	text-align: center;
-	font: 28px/70px;
-	text-decoration: none;
 	color: #000;
 	text-shadow: darkred 0 0 8px;
 	text-align: center;
-	font-family:"matisse_itcregular";
 }
 
 /* Accordion Content Styles */
