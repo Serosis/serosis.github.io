@@ -21,9 +21,18 @@
 
 /* Overrides */
 
-body
-{
+html,
+body {
+	height: 100%;
+	width: 100%;
 	background-color: transparent;
+}
+
+section {
+	padding: 100px 0;
+}
+aside {
+	padding: 50px 0;
 }
 
 .navbar{
