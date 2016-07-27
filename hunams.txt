@@ -31,6 +31,7 @@
 	
 /* Changelog */
 2016
+	7/27	Finished implementing the music gallery playlist. Site is nearly finished.
 	7/25	Doing some initial work to port the site over to Jekyll in a one page format.
 	4/29	Cleaning up code and removing unnecessary implementations... Open Source is still a ways away
 	4/25	Implemented a PHP script to rotate between a set of images for the Orbit page
