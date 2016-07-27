@@ -7,12 +7,8 @@
 
 		<script>		
 			$(document).ready(function(){
-				$('audio').prop("volume", 0.4);
+				//$('audio').prop("volume", 0.4);
 				$('.swipebox').swipebox();
-				$('.mgallery').click(function(){
-					load_track = $(this).attr('data-location');//gets me the url of the new track
-					change(load_track);// function to change the track of the loaded audio player without page refresh preferred...
-				});
 			});
 			(function($) {
 				"use strict"; // Start of use strict
@@ -44,9 +40,9 @@
 				init();
 				function init(){
 					current = 0;
-					audio = $('audio');
+					audio = $('#player');
 					playlist = $('#playlist');
-					tracks = playlist.find('mgallery');
+					tracks = playlist.find('#tracks');
 					len = tracks.length - 1;
 					audio[0].volume = '.50';
 					playlist.find('a').click(function(e){
@@ -69,7 +65,7 @@
 				function run(link, player){
 					player.src = link.attr('data-location');
 					par = link.parent();
-					par.addClass('active').siblings().removeClass('active');
+					//par.addClass('active').siblings().removeClass('active');
 					audio[0].load();
 					audio[0].play();
 				}
