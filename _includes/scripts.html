@@ -28,4 +28,12 @@
 					offset: 51
 				})
 			})(jQuery); // End of use strict
+			function loadMusic(songName) {
+				var player=document.getElementById('player');
+				var audio=document.getElementById('audio');
+				sourceMp3.src='music/' + songName + '.mp3';
+				
+				player.load();
+				player.play();
+			}
 		</script>
