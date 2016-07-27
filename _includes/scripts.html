@@ -7,7 +7,6 @@
 
 		<script>		
 			$(document).ready(function(){
-				//$('audio').prop("volume", 0.4);
 				$('.swipebox').swipebox();
 			});
 			(function($) {
@@ -64,9 +63,7 @@
 				}
 				function run(link, player){
 					player.src = link.attr('href');
-					$('#download-audio').src = link.attr('href');
 					par = link.parent();
-					//par.addClass('active').siblings().removeClass('active');
 					audio[0].load();
 					audio[0].play();
 				}
