@@ -27,8 +27,17 @@
 					target: '.navbar-fixed-top',
 					offset: 51
 				})
+				$('a').click( function(e) {
+					e.preventDefault(); 
+					var player=document.getElementById('player');
+					var audio=document.getElementById('source-mp3');
+					audio.src='music/' + songName + '.mp3';
+					
+					player.load();
+					player.play();
+					return false; 
+				} );
 			})(jQuery); // End of use strict
-			
 			function loadMusic(songName) {
 				var player=document.getElementById('player');
 				var audio=document.getElementById('source-mp3');
