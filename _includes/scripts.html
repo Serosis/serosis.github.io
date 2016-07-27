@@ -63,7 +63,7 @@
 					});
 				}
 				function run(link, player){
-					player.src = link.attr('data-location');
+					player.src = link.attr('href');
 					par = link.parent();
 					//par.addClass('active').siblings().removeClass('active');
 					audio[0].load();
