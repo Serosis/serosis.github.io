@@ -46,7 +46,7 @@
 					current = 0;
 					audio = $('audio');
 					playlist = $('#playlist');
-					tracks = playlist.find('li a');
+					tracks = playlist.find('mgallery');
 					len = tracks.length - 1;
 					audio[0].volume = '.50';
 					playlist.find('a').click(function(e){
@@ -67,7 +67,7 @@
 					});
 				}
 				function run(link, player){
-					player.src = link.attr('href');
+					player.src = link.attr('data-location');
 					par = link.parent();
 					par.addClass('active').siblings().removeClass('active');
 					audio[0].load();
