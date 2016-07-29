@@ -198,12 +198,12 @@ a {
 		color: #555;
 		background-color: transparent;
 	}
-	article{
+	section{
 		padding-top:64px;
 	}
 }
 @media(min-width:768px){
-	article{
+	section{
 		padding-top:160px;
 	}
 	.navbar .navbar-nav{
@@ -216,12 +216,12 @@ a {
 	}
 }
 @media(min-width:992px){
-	article{
+	section{
 		padding-top:192px;
 	}
 }
 @media(min-width:1200px){
-	article{
+	section{
 		padding-top:256px;
 	}
 }
