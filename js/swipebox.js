@@ -35,7 +35,7 @@
 		}, c.swipebox.extend = function() {
 			return g
 		}, j.init = function() {
-			j.settings = c.extend({}, i, f), c.isArray(e) ? (k = e, g.target = c(a), g.init(j.settings.initialIndexOnArray)) : c(b).one("click, tap", l, function(a) {
+			j.settings = c.extend({}, i, f), c.isArray(e) ? (k = e, g.target = c(a), g.init(j.settings.initialIndexOnArray)) : c(b).on("click, tap", l, function(a) {
 				if ("slide current" === a.target.parentNode.className) return !1;
 				c.isArray(e) || (g.destroy(), h = c(l), g.actions()), k = [];
 				var b, d, f;
