@@ -76,7 +76,7 @@
 
 			} else {
 
-				$( document ).on( 'click, tap', selector, function( event ) {
+				$( document ).on( 'click', selector, function( event ) {
 
 					// console.log( isTouch );
 
@@ -296,8 +296,9 @@
 				bars.addClass( 'visible-bars' );
 				$this.setTimeout();
 
-				$( 'body' ).addClass( 'touching' ).bind( 'touchstart', function( event ) {
+				$( 'body' ).bind( 'touchstart', function( event ) {
 
+					$( this ).addClass( 'touching' );
 					index = $( '#swipebox-slider .slide' ).index( $( '#swipebox-slider .slide.current' ) );
 					endCoords = event.originalEvent.targetTouches[0];
 					startCoords.pageX = event.originalEvent.targetTouches[0].pageX;
@@ -436,7 +437,7 @@
 					} );
 
 					$( '#swipebox-overlay' ).removeClass( 'leftSpringTouch' ).removeClass( 'rightSpringTouch' );
-					$( '.touching' ).off( 'touchmove' );
+					$( '.touching' ).off( 'touchmove' ).removeClass( 'touching' );
 
 				} );
 			},
@@ -908,13 +909,10 @@
 			 * Close
 			 */
 			closeSlide : function () {
-				$('#swipebox-overlay').fadeOut( 300, function() { // fade out overlay
-					$(window).destroy(); 
-				});
 				$( 'html' ).removeClass( 'swipebox-html' );
 				$( 'html' ).removeClass( 'swipebox-touch' );
-				$('body').removeClass('touching');
 				$( window ).trigger( 'resize' );
+				this.destroy();
 			},
 
 			/**
