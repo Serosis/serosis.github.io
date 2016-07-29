@@ -24,8 +24,9 @@
 html,
 body {
 	height: 100%;
-	width: 100%;
-	background-color: transparent;
+	width: 100%;    
+	background-color: #111111;
+	background: rgb(17,17,17);
 }
 
 section {
