@@ -128,6 +128,7 @@
 .panel-inverse .panel-heading{
 	text-align: justify;
 	font: 14px/35px sf-new-republic, sans-serif;
+	border-bottom: 1px solid transparent;
 	text-decoration: none;
 	color: darkred;
 	text-shadow: 1px 1px 0 rgba(0,0,0, .2);
