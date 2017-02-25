@@ -1,0 +1,136 @@
+		<section id="Features" class="Features container-fluid">
+			<div class="row">
+				<div class="col-md-6 col-lg-offset-3 well well-xs">
+					<div class="panel-group">
+						<div class="panel panel-inverse ">
+							<div class="panel-heading collapsed" data-toggle="collapse" data-target="#thradd">
+								<h4 class="panel-title">The Fate of the Thraddash<span class="text-warning"> (Spoilers)</span></h4>
+							</div>
+							<div id="thradd" class="panel-collapse collapse">
+								<div class="panel-body">
+									<p class="indent text-justify">
+										The Thraddash will survive the Ilwrath onslought <i>if</i> you are allied with them. So now you
+										can rest easy knowing your Thraddash students will be relatively safe under your watchful eye.
+										However, just like any war, there will be losses. Your students will incur a 25% reduction in 
+										battle strength that is reflected on their Sphere of Influence.
+									</p>
+									<p class="indent text-justify">
+										You must also keep in mind that the one thing the Thraddash absolutely can not tolerate is
+										dishonesty. If you steal their Aqua Helix during the Ilwrath conflict your students will turn on you.
+										All of the ships you built at the shipyard will defect back to the Thraddash fleet and your former
+										students will incur a 100% loss in the battle against the Ilwrath.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-inverse ">
+							<div class="panel-heading collapsed" data-toggle="collapse" data-target="#cheats">
+								<h4 class="panel-title">The Cheats</h4>
+							</div>
+							<div id="cheats" class="panel-collapse collapse">
+								<div class="panel-body">
+									<p class="indent justify">
+										The cheats are, for the most part, self-explanatory. But for posterity I will go through them one by one
+										just to quell any confusion. For the list the titles will be the .cfg option and the coomandline option 
+										separated by a forward slash.
+									</p>
+									<div class="row">
+										<div class="col-md-6">
+											<dl>
+												<dt>cheatMode / --cheatmode</dt>
+												<dd>
+													The Kohr-Ah will be frozen on the spot and will not move forward with the cleansing. This cheat 
+													literally stops the Kohr-Ah in their tracks when activated.
+												</dd>
+												<dt>godMode / --godmode</dt>
+												<dd>
+													This is a lengthy one: This makes any ship you control indestructible, including the landers. 
+													Also refills your ship's energy every time you fire either one of your weapons. <br />
+													Here is a brief list of other things godMode does: 
+														<li>Orz marines do not harm player</li>
+														<li>Pkunk resurrection is 100% for the player</li>
+														<li>Syreen song does not affect the player</li>
+														<li>Melnorme confusion ray does not affect the player</li>
+														<li>VUX limpets do nothing to the player</li>
+														<li>Chmmr Avatar has 5 ZapSats instead of 3</li>
+													This cheat only works against computer controlled opponents.
+												</dd>
+												<dt>timeDilation / --timedilation</dt>
+												<dd>
+													Slows down the game clock. Interplanetary is 3 minutes and Hyperspace is 30 seconds.
+												</dd>
+											</dl>
+										</div>
+										<div class="col-md-6">
+											<dl>
+												<dt>bubbleWarp / --bubblewarp</dt>
+												<dd>
+													Instantaneous travel to any point on the starmap.
+												</dd>
+												<dt>unlockShips / --unlockships</dt>
+												<dd>
+													Unlocks the Vux, Melnorme, Ilwrath, Mycon, Slylandro, Ur-Quan, and Kohr-Ah ships for building
+													in the shipyard.
+												</dd>
+												<dt>headStart / --headstart</dt>
+												<dd>
+													Equips your flagship with full thrusters and jets, 2 fuel tanks, 2 crewpods, 2 storage bays, 
+													2 forward blasters, 4 dynamos, max landers, 1000 radioactives, and 1000 bio-units at the start of a new game
+												</dd>
+												<dt>unlockUpgrades / --unlockupgrades</dt>
+												<dd>
+													Unlocks all of the Melnorme tech upgrades.
+												</dd>
+												<dt>fastForward / --fastForward</dt>
+												<dd>
+													Speeds up the game clock. Interplanetary is 5 seconds and Hyperspace is 1 second.
+												</dd>
+												<dt>landerMods / --landermods</dt>
+												<dd>
+													Disables the random landing location and doubles the storage capacity of the lander and your ship's storage bays.
+												</dd>
+											</dl>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-inverse ">
+							<div class="panel-heading collapsed" data-toggle="collapse" data-target="#code">
+								<h4 class="panel-title">Code Changes</h4>
+							</div>
+							<div id="code" class="panel-collapse collapse">
+								<div class="panel-body">
+									<p class="indent text-justify">
+										This will be an unordered list of changes made to the code, major or minor, that hasn't already been mentioned and 
+										affects the game in any way. Some of these changes were not made by me but by someone whose name in the comments is, "MB"
+										and that will be noted on the changes with an, "|MB|" at the end.
+									</p>
+									<ul>
+										<li>Added in the ability to utilize all of the 3DO videos (FMV Mod)</li>
+										<li>Backported the Cheat Mode code to UQM Classic</li>
+										<li>Increased the maximum amount of saved games one could have up to 100</li>
+										<li>Arilou have a 5% chance of appearing in a star system in their SOI</li>
+										<li>Heap size has been changed to 16kb for Classic and 32kb for HD</li>
+										<li>All Spathi ships retreat when they put themselves under a Slave Shield</li>
+										<li>Bump the version up to 0.7.2d</li>
+										<h4> HD Only </h4>
+										<li>The 3DO videos are centered when using higher resolutions |MB|</li>
+										<li>You can still escape battle even if you have the modified bomb (Going to fix on next build)</li>
+										<li>A patch to remove the U.S. dollar signs from Orz dialogue when viewing the summary |MB|</li>
+										<li>Spathi ships don't retreat when they put themselves under a Slave Shield (Ugh, the crap I overlook)</li>
+										<li>Upgraded lander speed fixed for 1280x720</li>
+										<li>Cursor snap intensity reduced |MB|</li>
+										<li>A fix for the planet texture and sun corona, "pop-in" |MB|</li>
+										<li>Correction to the number of nebulae and removing nebula from some star systems |MB|</li>
+										<li>Bugfix for the Arilou to reduce the odds of telporting into the Sa-Matra |MB|</li>
+										<li>Vux Limpet can incapacitate the Sa-Matra |MB|</li>
+										<li>Some code to handle the, 'a' and, 'o' umlaut characters |MB|</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>

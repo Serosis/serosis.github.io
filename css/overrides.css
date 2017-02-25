@@ -29,26 +29,6 @@ body {
 	background: rgb(17,17,17);
 }
 
-.header {
-	text-align: center;
-}
-
-.header h1 {
-	font-weight: 700;
-	margin-top: 0;
-	margin-bottom: 0;
-}
-.header hr {
-	margin: 30px auto;
-	width: 20px;
-}
-.header p {
-	font-weight: 300;
-	color: rgba(255, 255, 255, 0.7);
-	font-size: 16px;
-	margin-bottom: 50px;
-}
-
 .navbar{
 	border-bottom: thin solid #333333;
 	background-color: #111111;
@@ -165,7 +145,7 @@ h1{
 	text-align: center;
 }
 
-h2,h4{
+h2,h3,h4{
 	color: darkred;
 	font-family:"sf-new-republic";
 }
@@ -236,22 +216,34 @@ a {
 
 /* Bootstrap Additions */
 
-.navbar-center {
-	float: right;
-
-	position: relative;
-	left: -50%; /* or right 50% */
-	text-align: left;
-}
-
 .well-xs {
 	padding: 3px;
 }
 
 /* Additions */
 
-.preload img {
-	opacity:0;
+.header {
+	text-align: center;
+}
+
+.header h1 {
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.header hr {
+	margin: 30px auto;
+	width: 20px;
+}
+.header p {
+	font-weight: 300;
+	color: rgba(255, 255, 255, 0.7);
+	font-size: 16px;
+	margin-bottom: 50px;
+}
+
+.inline{
+	display:inline-block;
 }
 
 .margin{

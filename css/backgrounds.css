@@ -161,7 +161,8 @@
 			 -o-background-size: cover;
 					background-size: cover;
 }
-.Mycon{
+.Mycon,
+.Features{
 	background: url(../img/landmarks/backgrounds/Mycon.gif) center center fixed;
 	height: 100%;
 	-webkit-background-size: cover;
