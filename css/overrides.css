@@ -53,7 +53,7 @@ body {
 	border-bottom: thin solid #333333;
 	background-color: #111111;
 	background: rgb(17,17,17);
-	background: rgba(17,17,17, 0.6);
+	background: rgba(17,17,17, 0.9);
 	font-family:"sf-new-republic";
 }
 
@@ -97,7 +97,7 @@ body {
 
 .navbar-inverse .navbar-brand{
 	color: #000;
-	text-shadow: darkred 0 0 8px;
+	text-shadow: red 0 0 8px;
 }
 
 .navbar-inverse .navbar-brand:hover,
