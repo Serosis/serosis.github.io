@@ -134,7 +134,8 @@
 	display: block;
 	height: 35px;
 	text-align: center;
-	border-bottom: 1px solid transparent;
+	border-bottom: 0px solid transparent;
+	border-radius: 0px;
 	text-decoration: none;
 	color: darkred;
 	text-shadow: 1px 1px 0 rgba(0,0,0, .2);
@@ -160,6 +161,8 @@
 	display: block;
 	height: 35px;
 	text-align: center;
+	border-bottom: 0px solid transparent;
+	border-radius: 0px;
 	border-bottom: 1px solid transparent;
 	text-decoration: none;
 	color: #555;
@@ -172,7 +175,7 @@
 }
 
 .panel-inverse .panel-body{
-	border-top: 1px solid #262626 !important;
+	border-top: 0px solid #262626 !important;
 }
 
 .panel-inverse .panel-body p{	
