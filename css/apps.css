@@ -134,7 +134,7 @@
 	box-shadow: 0 1px 0 rgba(255,255,255, .05);
 }
 
-.panel-inverse .panel-heading{
+.panel-inverse .panel-heading.collapsed{
 	display: block;
 	height: 35px;
 	text-align: center;
@@ -150,7 +150,7 @@
 	box-shadow: 0 1px 0 rgba(0,0,0, .1), inset 0 1px 0 rgba(255,255,255, .1);
 }
 
-.panel-inverse .panel-heading:hover{
+.panel-inverse .panel-heading.collapsed:hover{
 	color: #555;
 	text-shadow: 0 1px 0 rgba(255,255,255, .15);
 	background-color: rgba(0, 100, 0, 0.3);
@@ -158,6 +158,10 @@
 	-webkit-box-shadow: 1px 1px 1px rgba(0,0,0, .3), inset 1px 1px 1px rgba(255,255,255, .45);
 	-moz-box-shadow: 1px 1px 1px rgba(0,0,0, .3), inset 1px 1px 1px rgba(255,255,255, .45);
 	box-shadow: 1px 1px 1px rgba(0,0,0, .3), inset 1px 1px 1px rgba(255,255,255, .45);
+}
+
+.panel-inverse .panel-collapse{
+	height:0px;
 }
 
 .panel-inverse .panel-body{
