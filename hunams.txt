@@ -30,6 +30,9 @@
 	Google Chrome	- https://www.google.com/intl/en/chrome/browser/
 	
 /* Changelog */
+2017
+	2/25	Implemented a panel-based collapsible accordian for the FAQ section
+	2/25	Replaced Swipebox for Mediaswipe
 2016
 	7/27	Finished implementing the music gallery playlist. Site is nearly finished.
 	7/25	Doing some initial work to port the site over to Jekyll in a one page format.
