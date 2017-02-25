@@ -115,6 +115,14 @@
 }
 
 /* Horizontal accordian */
+.panel-group{	
+	background-color: black;
+	background-color: rgba(0, 0, 0, 0.3);
+
+	-webkit-box-shadow: 0 1px 0 rgba(255,255,255, .05);
+	-moz-box-shadow: 0 1px 0 rgba(255,255,255, .05);
+	box-shadow: 0 1px 0 rgba(255,255,255, .05);
+}
 
 .panel-inverse{
 	background-color: black;
@@ -134,12 +142,20 @@
 	text-shadow: 1px 1px 0 rgba(0,0,0, .2);
 	background-color: black;
 	background-color: rgba(0, 0, 0, 0.3);
+
+	-webkit-box-shadow: 0 1px 0 rgba(0,0,0, .1), inset 0 1px 0 rgba(255,255,255, .1);
+	-moz-box-shadow: 0 1px 0 rgba(0,0,0, .1), inset 0 1px 0 rgba(255,255,255, .1);
+	box-shadow: 0 1px 0 rgba(0,0,0, .1), inset 0 1px 0 rgba(255,255,255, .1);
 }
 
 .panel-inverse .panel-heading:hover{
 	color: #555;
 	text-shadow: 0 1px 0 rgba(255,255,255, .15);
 	background-color: rgba(0, 100, 0, 0.3);
+
+	-webkit-box-shadow: 1px 1px 1px rgba(0,0,0, .3), inset 1px 1px 1px rgba(255,255,255, .45);
+	-moz-box-shadow: 1px 1px 1px rgba(0,0,0, .3), inset 1px 1px 1px rgba(255,255,255, .45);
+	box-shadow: 1px 1px 1px rgba(0,0,0, .3), inset 1px 1px 1px rgba(255,255,255, .45);
 }
 
 .panel-inverse .panel-body{
