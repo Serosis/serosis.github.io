@@ -36,6 +36,89 @@
 										If all goes without a hitch you can begin compiling the source code.</p>
 								</div>
 							</div>
+							<div class="panel-heading accordion-toggle question-toggle collapsed" data-toggle="collapse" data-parent="#faqAccordion" data-target="#3dovideo">
+								<h4 class="panel-title">How do I install the 3DO videos?</h4>
+							</div>
+							<div id="3dovideo" class="panel-collapse collapse" style="height: 0px;">
+								<div class="panel-body">
+									<h4>Windows</h4>
+									<p class="indent justify">To make things easier on the community I have made available all the videos to
+										download in one handy .zip file. You can get this file on the <a href="./Downloads">Downloads</a> page.</p>
+									<p class="justify">To use them just extract the folder from within the zip file to your
+										<code>addons</code> directory. Which by default is <br /><br />
+										<code>C:\Program Files\The Ur-Quan Masters\content\addons\</code><br />
+										or <br />
+										<code>C:\Program Files (x86)\The Ur-Quan Masters\content\addons\</code> in 64bit Windows<br /><br />
+										After that you can just load up UQM and opt to use the 3DO videos instead of the PC slides.</p>
+									<hr />
+									<h4>MacOS X</h4>
+									<p class="justify">
+										Right click on the UQM app and select <code>Show Package Contents</code><br/>
+										Navigate to <code>Contents -> Resources -> content -> addons</code><br/>
+										Extract the <code>uqm-0.7.0-3dovideos.zip</code> file into the <code>addons</code> folder.
+									</p>
+								</div>
+							</div>
+							<div class="panel-heading accordion-toggle question-toggle collapsed" data-toggle="collapse" data-parent="#faqAccordion" data-target="#megamod">
+								<h4 class="panel-title">How do I use the MegaMod cheats?</h4>
+							</div>
+							<div id="megamod" class="panel-collapse collapse" style="height: 0px;">
+								<div class="panel-body">
+									<h4>Windows</h4>
+									<p class="indent justify">
+										For Windows you can use the cheats through commandline, batch file, in the uqm.cfg file, or in a shortcut. 
+										Say you wanted to use a desktop shortcut, you would right-click the shortcut and go into its properties
+										and add any cheat at the end of the "Target:". It should look like <a class="js-mediaSwipe" href="./img/landmarks/CheatMode.png" >this.</a>
+									</p>
+									<p class="indent justify">
+										I would advise against using the uqm.cfg method simply because the cheats are off by default and if you were to change
+										any settings while in UQM it would reset the uqm.cfg file. In other words, get the settings how you want them first before
+										applying cheats.
+									</p>
+									<hr />
+									<h4>MacOS X</h4>
+									<p class="indent justify">
+										For OS X things get a bit more complicated. You can run commandline arguments using the <i>open</i> command, add them to the <i>.cfg</i>, 
+										or use the Automator script I included with the app.
+									</p>
+									<h5>Commandline</h5>
+									<p class="indent justify">
+										In this example I will assume you installed the MegaMod .app into the Applications folder: <br />
+										For those that are already familiar with using the Terminal commandline, arguments using the <i>open</i> command should be a walk in the cake.
+										Simply open up your Terminal and type in: <code>open -a "The Ur-Quan Masters MegaMod.app" --args</code> or <code>open -a "The Ur-Quan Masters HD MegaMod.app" --args</code>
+										Depending on the version you installed. Then you type in whichever commandline argument you wish after. So if you wanted the headstart cheat you'd type in: 
+										<code>--headstart</code> After <code>--args</code><br />
+										You can put in as many commandline arguments you want after: <code>--args</code>
+									</p>
+									<h5>Editing the uqm.cfg</h5>
+									<p class="indent justify">
+										Word of warning. Changes to the .cfg file are reset every time you enter the setup menu in-game. So make whatever changes you need in-game before
+										editing the .cfg
+									</p>
+									<p class="indent justify">
+										To edit the .cfg file you have to run UQM or UQM-HD at least once and go to their respective setup menus. This creates (and resets) the uqm.cfg file.<br />
+										Open Finder, on the Menu Bar select: <code>Go -> Go To Folder...</code> And type in either: <code>~/.uqm/</code> or <code>~/.uqmhd/</code> Depending on the 
+										version you installed This brings you to the user folder that contains the uqm.cfg file.
+									</p>
+									<p class="indent justify">
+										Open the uqm.cfg file with any text editor you have. Inside there should be a nice unordered list of options which include all of the cheat options.
+										Again I'll use headstart as an example. Find: <code>headStart = BOOLEAN:false</code> Change, "false" to, "true" and save the the changes.
+									</p>
+									<h5>Using the CMD Line Automator</h5>
+									<p class="justify">
+										This process assumes you installed UQM or UQM-HD in the Applications folder.
+									</p>
+									<p class="indent justify">
+										Copy <i>CMD Line Automator</i> wherever you'd like. Open Automator, you can search for it in Spotlight or open it up directly from your Applications folder.
+										You will be greeted with a, "new file" window, at the bottom select <code>Open an Existing Document...</code> and select the <i>CMD Line Automator</i> file.
+										It should look something <a class="js-mediaSwipe" href="./img/landmarks/Automator.png">like this.</a>
+									</p>
+									<p class="indent justify">
+										From here on the process is the same as using the commandline options except that after you're done adding in the options you save the file and run it.
+										You can put the CMD Line Automator anywhere you want, all it does is open up the app using the commandline options.
+									</p>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
