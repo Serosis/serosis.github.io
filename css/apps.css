@@ -117,20 +117,35 @@
 /* Horizontal accordian */
 
 .panel-group {
-    width:430px;
-    z-index: 100;
-    -webkit-backface-visibility: hidden;
-    -webkit-transform: translateX(-100%) rotate(-90deg);
-    -webkit-transform-origin: right top;
-    -moz-transform: translateX(-100%) rotate(-90deg);
-    -moz-transform-origin: right top;
-    -o-transform: translateX(-100%) rotate(-90deg);
-    -o-transform-origin: right top;
-    transform: translateX(-100%) rotate(-90deg);
-    transform-origin: right top;
+	width:430px;
+	z-index: 100;
+	-webkit-backface-visibility: hidden;
+	-webkit-transform: translateX(-100%) rotate(-90deg);
+	-webkit-transform-origin: right top;
+	-moz-transform: translateX(-100%) rotate(-90deg);
+	-moz-transform-origin: right top;
+	-o-transform: translateX(-100%) rotate(-90deg);
+	-o-transform-origin: right top;
+	transform: translateX(-100%) rotate(-90deg);
+	transform-origin: right top;
+	background-color: black;
+	background-color: rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0 1px 0 rgba(255,255,255, .05);
+	-moz-box-shadow: 0 1px 0 rgba(255,255,255, .05);
+	box-shadow: 0 1px 0 rgba(255,255,255, .05);
 }
 .panel-heading {
     width: 430px;
+	font: 14px/35px sf-new-republic, sans-serif;
+	text-decoration: none;
+	color: darkred;
+	text-shadow: 1px 1px 0 rgba(0,0,0, .2);
+	background-color: black;
+	background-color: rgba(0, 0, 0, 0.3);
+
+	-webkit-box-shadow: 0 1px 0 rgba(0,0,0, .1), inset 0 1px 0 rgba(255,255,255, .1);
+	-moz-box-shadow: 0 1px 0 rgba(0,0,0, .1), inset 0 1px 0 rgba(255,255,255, .1);
+	box-shadow: 0 1px 0 rgba(0,0,0, .1), inset 0 1px 0 rgba(255,255,255, .1);
 }
 .panel-title {
     height:18px

@@ -4,31 +4,63 @@
 					<div class="panel-group" id="accordion">
 						<div class="panel panel-default">
 							<div class="panel-heading">
-								<h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">How to </a></h4>
+								<h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">How do you install the MegaMod? </a></h4>
 							</div>
 							<div id="collapseOne" class="panel-collapse collapse in">
 								<div class="panel-body">
-
+									<p class="indent justify">Well first you make a backup copy of your original .exe, which should be by default in your
+										<code>C:\Program Files\The Ur-Quan Masters\</code> directory.
+										The file mentioned is named <code>uqm.exe</code>, you can change the
+										name to something else like <code>uqm-backup.exe</code> or
+										<code>uqm-original.exe</code>. Don't worry if you can't see the
+										<code>.exe</code> bit in the filename. By default that view is turned off.</p>
+									<p class="indent justify">After you have completed the above you can UnZIP the mod you downloaded straight into the directory aformentionted,
+										which again by default is <code>C:\Program Files\The Ur-Quan Masters\</code><br />
+										When that is all done you can run the game.</p>
 								</div>
 							</div>
 						</div>
 						<div class="panel panel-default">
 							<div class="panel-heading">
-								<h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">How to 2</a></h4>
+								<h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">What the heck is a .diff? </a></h4>
 							</div>
 							<div id="collapseTwo" class="panel-collapse collapse">
 								<div class="panel-body">
-
+									<p class="indent justify">The .diff files are here only because I thought it would more efficient than to upload
+										the entire source code for such relatively minor changes. These files should only be
+										of use if you are planning to compile your own version of these mods or if you are
+										cross compiling. To use these patch files on Windows you need to set up MinGW and MSYS,
+										which is explained in the INSTALL.mingw file that comes with UQM's source code.</p>
+									<p class="indent justify">Copy the releveant .diff file you want into the
+										<code>/uqm-0.7.0/sc2</code> directory, open up a Terminal(MSYS for Windows users),
+										<code>cd</code> into the directory where you placed the .diff and execute
+										the command, <code>patch -p0 -i *.diff</code>. * Being the name of the .diff. <br />
+										If all goes without a hitch you can begin compiling the source code.</p>
 								</div>
 							</div>
 						</div>
 						<div class="panel panel-default">
 							<div class="panel-heading">
-								<h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">How to 3 </a></h4>
+								<h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">How do I install the 3DO videos? </a></h4>
 							</div>
 							<div id="collapseThree" class="panel-collapse collapse">
 								<div class="panel-body">
-
+									<h4>Windows</h4>
+									<p class="indent justify">To make things easier on the community I have made available all the videos to
+										download in one handy .zip file. You can get this file on the <a href="./Downloads">Downloads</a> page.</p>
+									<p class="justify">To use them just extract the folder from within the zip file to your
+										<code>addons</code> directory. Which by default is <br /><br />
+										<code>C:\Program Files\The Ur-Quan Masters\content\addons\</code><br />
+										or <br />
+										<code>C:\Program Files (x86)\The Ur-Quan Masters\content\addons\</code> in 64bit Windows<br /><br />
+										After that you can just load up UQM and opt to use the 3DO videos instead of the PC slides.</p>
+									<hr />
+									<h4>MacOS X</h4>
+									<p class="justify">
+										Right click on the UQM app and select <code>Show Package Contents</code><br/>
+										Navigate to <code>Contents -> Resources -> content -> addons</code><br/>
+										Extract the <code>uqm-0.7.0-3dovideos.zip</code> file into the <code>addons</code> folder.
+									</p>
 								</div>
 							</div>
 						</div>
