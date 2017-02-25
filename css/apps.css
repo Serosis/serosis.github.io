@@ -115,14 +115,6 @@
 }
 
 /* Horizontal accordian */
-.panel-group{	
-	background-color: black;
-	background-color: rgba(0, 0, 0, 0.3);
-
-	-webkit-box-shadow: 0 1px 0 rgba(255,255,255, .05);
-	-moz-box-shadow: 0 1px 0 rgba(255,255,255, .05);
-	box-shadow: 0 1px 0 rgba(255,255,255, .05);
-}
 
 .panel-inverse{
 	background-color: black;
@@ -134,7 +126,7 @@
 }
 
 .panel-inverse .panel-heading{
-	text-align: justify;
+	text-align: left;
 	font: 14px/35px sf-new-republic, sans-serif;
 	border-bottom: 1px solid transparent;
 	text-decoration: none;
