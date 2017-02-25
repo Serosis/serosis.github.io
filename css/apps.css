@@ -113,3 +113,50 @@
 	-moz-box-shadow: 2px 2px 6px rgba(0,0,0, .5);
 	box-shadow: 2px 2px 6px rgba(0,0,0, .5);
 }
+
+/* Horizontal accordian */
+
+.panel-group {
+    width:430px;
+    z-index: 100;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateX(-100%) rotate(-90deg);
+    -webkit-transform-origin: right top;
+    -moz-transform: translateX(-100%) rotate(-90deg);
+    -moz-transform-origin: right top;
+    -o-transform: translateX(-100%) rotate(-90deg);
+    -o-transform-origin: right top;
+    transform: translateX(-100%) rotate(-90deg);
+    transform-origin: right top;
+}
+.panel-heading {
+    width: 430px;
+}
+.panel-title {
+    height:18px
+}
+.panel-title a {
+    float:right;
+    text-decoration:none;
+    padding: 10px 430px;
+    margin: -10px -430px;
+}
+.panel-body {
+    height:830px;
+}
+.panel-group img {
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateX(-100%) rotate(90deg);
+    -webkit-transform-origin: right top;
+    -moz-transform: translateX(-100%) rotate(90deg);
+    -moz-transform-origin: right top;
+    -o-transform: translateX(-100%) rotate(90deg);
+    -o-transform-origin: right top;
+    transform: translateX(-100%) rotate(90deg);
+    transform-origin: right top;
+}
+.panel-group .panel img {
+    margin-left:400px;
+    margin-top:800px;
+    position: absolute;
+}
