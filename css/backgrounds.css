@@ -9,8 +9,7 @@
 			 -o-background-size: cover;
 					background-size: cover;
 }
-.Arilou,
-.FAQ {
+.Arilou {
 	background: url("../img/landmarks/backgrounds/Arilou.gif") center center fixed;
 	height: 100%;
 	-webkit-background-size: cover;
@@ -19,8 +18,7 @@
 					background-size: cover;
 }
 .Ilwrath,
-.Dill-Rats,
-.Releases{
+.Dill-Rats{
 	background: url(../img/landmarks/backgrounds/Ilwrath.gif) center center fixed;
 	height: 100%;
 	-webkit-background-size: cover;
@@ -80,7 +78,8 @@
 			 -o-background-size: cover;
 					background-size: cover;
 }
-.Druuge{
+.Druuge,
+.Releases{
 	background: url(../img/landmarks/backgrounds/Druuge.gif) center center fixed;
 	height: 100%;
 	-webkit-background-size: cover;
@@ -178,7 +177,8 @@
 			 -o-background-size: cover;
 					background-size: cover;
 }
-.Melnorme{
+.Melnorme,
+.FAQ{
 	background: url(../img/landmarks/backgrounds/Melnorme.gif) center center fixed;
 	height: 100%;
 	-webkit-background-size: cover;
