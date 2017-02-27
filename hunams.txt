@@ -9,7 +9,7 @@
 /* SITE */
 	Language: English
 	Standards: CSS3, HTML5, Javascript
-	Components: Twitter Bootstrap, Swipebox
+	Components: Twitter Bootstrap, MediaSwipe
 		Base64 File Encoder, CSS/JS Minifier/Cacher, Jquery
 	Software: Sublime Text, FileZilla, Photoshop CS6, Codeanywhere IDE, Google Chrome, GitHub Desktop
 	
@@ -18,9 +18,8 @@
 	Swipebox	- http://brutaldesign.github.io/swipebox/
 	Base64 FE	- http://jpillora.com/base64-encoder/
 	Patternify	- http://www.patternify.com/
-	Minifiers	- http://metricmarketing.ca/blog/combining-css-or-javascript-files-on-the-fly-with-php
-	Accordion	- http://cssdeck.com/labs/otme9oiw
 	Comm Gifs	- http://www.star-control.com/hosted/happycamper/outfit.html
+	MediaSwipe- http://www.ericw.me/mediaswipe/
 	
 	Software Sources:
 	Sublime Text 	- http://www.sublimetext.com/
@@ -31,6 +30,7 @@
 	
 /* Changelog */
 2017
+	2/27	Implemented a panel faced modal system for the FAQ and Features page
 	2/25	Implemented a panel-based collapsible accordian for the FAQ section
 	2/25	Replaced Swipebox for Mediaswipe
 2016
