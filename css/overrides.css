@@ -249,7 +249,6 @@ a {
 
 body.modal-open nav,
 body.modal-open section,
-body.modal-open .background,
 body.modal-open .overlay{
     -webkit-filter: blur(4px);
     -moz-filter: blur(4px);
