@@ -31,7 +31,7 @@
 	
 /* Changelog */
 2017
-	2/27	Implemented a panel faced modal system for the FAQ and Features page
+	2/27	Implemented a panel-faced modal system for the FAQ and Features page
 	2/25	Implemented a panel-based collapsible accordian for the FAQ section
 	2/25	Replaced Swipebox for Mediaswipe
 2016
