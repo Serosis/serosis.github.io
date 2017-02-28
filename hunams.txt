@@ -1,6 +1,7 @@
 /* TEAM */
 	Web Designer/Admin: kohr-ah_death (A.K.A. Serosis)
-	Contact: http://uqm-mods.sf.net/?page=Contact_Me
+	Contact:  You can either contact me on the Github project page or the UQM forums.
+			Links to both are in the navigation menu.
 	From: Southern California
 
 /* THANKS */
