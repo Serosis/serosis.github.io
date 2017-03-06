@@ -101,6 +101,10 @@
 									<dd>
 										Slows down the game clock. Interplanetary is 3 minutes and Hyperspace is 30 seconds.
 									</dd>
+									<dt>skipIntro / --skipintro</dt>
+									<dd>
+										Skips the Logo (if the FMV option is active) and the Intro
+									</dd>
 								</dl>
 							</div>
 							<div class="col-md-6">
@@ -131,6 +135,10 @@
 									<dd>
 										Disables the random landing location and doubles the storage capacity of the lander and your ship's storage bays.
 									</dd>
+									<dt>FMV / --fmv</dt>
+									<dd>
+										Enables the pre-Splash Screen, Crystal Dynamics logo and the 3DO commercial when using the 3DO videos.
+									</dd>
 								</dl>
 							</div>
 						</div>
@@ -151,29 +159,56 @@
 					<div class="modal-body">
 						<p class="indent text-justify">
 							This will be an unordered list of changes made to the code, major or minor, that hasn't already been mentioned and 
-							affects the game in any way. Some of these changes were not made by me but by someone whose name in the comments is, "MB"
-							and that will be noted on the changes with an, "|MB|" at the end.
+							affects the game in any way. Some of these changes were not made by me but by <a href="">Matthew Bentley</a> and those changes
+							will be pointed out by either his full name or his initials.
 						</p>
 						<ul>
-							<li>Added in the ability to utilize all of the 3DO videos (FMV Mod)</li>
+							<li>Optional content auto-load support added:
+								<ul>
+									<li>Soul Reaver's Mycon dialog fix (Classic Only)</li>
+									<li>Soul Reaver's Melnorme dialog pack</li>
+									<li>Matt Bentley's Utwig dialog fix</li>
+									<li>Matt Bentley's Shofixti audio normalization</li>
+									<li>
+										Matt Bentley's subtitle fixes for Mycon, Pkunk, Spathiwa Safe Ones, Slylandro, Starbase Commander, Talking Pet, Utwig, and Vux
+									</li>
+								</ul>
+							</li>
+							<li>Code to circumvent overflows by using temp variables - MB</li>
+							<li>Code to prevent flagship status box turning grey</li>
+							<li>Slight acceleration to the starmap cursor - MB</li>
+							<li>Updated menu delay values so it no longer takes an age to, fill up your fuel tanks, fill up your crew, and search through your saved games. - MB</li>
+							<li>The Thraddash can now survive their war with the Ilwrath, outlined in, "The Fate of the Thraddash"</li>
+							<li>You can now ask the Commander about the Ur-Quan when talking about races</li>
+							<li>Better Yehat Rebels animation timing - MB</li>
+							<li>Bugfix for the Arilou to reduce the odds of telporting into the Sa-Matra - MB</li>
+							<li>Vux Limpet can incapacitate the Sa-Matra - MB</li>
+							<li>Added in the option to enable all of the 3DO videos (FMV Mod)</li>
 							<li>Backported the Cheat Mode code to UQM Classic</li>
 							<li>Increased the maximum amount of saved games one could have up to 100</li>
 							<li>Arilou have a 5% chance of appearing in a star system in their SOI</li>
-							<li>Heap size has been changed to 16kb for Classic and 32kb for HD</li>
+							<li>Heap size has been changed back to 10kb for Classic and up to 32kb for HD</li>
 							<li>All Spathi ships retreat when they put themselves under a Slave Shield</li>
-							<li>Bump the version up to 0.7.2d</li>
+							<li>Bump the version up to 0.7.2e</li>
+							<li>The commandline and .cfg file cheat system</li>
 							<h4> HD Only </h4>
-							<li>The 3DO videos are centered when using higher resolutions |MB|</li>
-							<li>You can still escape battle even if you have the modified bomb (Going to fix on next build)</li>
-							<li>A patch to remove the U.S. dollar signs from Orz dialogue when viewing the summary |MB|</li>
-							<li>Spathi ships don't retreat when they put themselves under a Slave Shield (Ugh, the crap I overlook)</li>
+							<li>Optional content auto-load support added:
+								<ul>									
+									<li>Matt Bentley's extra nebulae: 22 with the content, 17 without</li>
+									<li>Matt Bentley's HD ship info screens</li>
+									<li>My own fix for the Vux comm screen in low-res</li>
+								</ul>
+							</li>
+							<li>Fixed cursor snap so that trying to pick Sol no longer selects Sirius unless you zoom in. - MB</li>
+							<li>Better Yehat Rebels animation timing for 1x, 2x, and 4x resolutions - MB</li>
+							<li>Fix for 16:10 and 5:4 resolution - MB</li>
+							<li>The 3DO videos are centered when using higher resolutions - MB</li>
+							<li>A patch to remove the U.S. dollar signs from Orz dialogue when viewing the summary - MB</li>
 							<li>Upgraded lander speed fixed for 1280x720</li>
-							<li>Cursor snap intensity reduced |MB|</li>
-							<li>A fix for the planet texture and sun corona, "pop-in" |MB|</li>
-							<li>Correction to the number of nebulae and removing nebula from some star systems |MB|</li>
-							<li>Bugfix for the Arilou to reduce the odds of telporting into the Sa-Matra |MB|</li>
-							<li>Vux Limpet can incapacitate the Sa-Matra |MB|</li>
-							<li>Some code to handle the, 'a' and, 'o' umlaut characters |MB|</li>
+							<li>Cursor snap intensity reduced - MB</li>
+							<li>A fix for the planet texture and sun corona, "pop-in" - MB</li>
+							<li>Correction to the number of nebulae and removing nebula from some star systems - MB</li>
+							<li>Some code to handle the, 'ä' and, 'ö' umlaut characters - MB</li>
 						</ul>
 					</div>
 					<footer class="modal-footer">
