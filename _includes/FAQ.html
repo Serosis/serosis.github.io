@@ -26,12 +26,12 @@
 					<br class="hidden-xs" />
 					<div class="row">
 						<div class="col-md-6">
-							<div class="panel panel-card" data-toggle="modal" data-target="#3dovideo">
+							<div class="panel panel-card" data-toggle="modal" data-target="#content">
 								<div class="panel-body">
 									<img class="img-responsive" src="/img/landmarks/panels/3dovideo.png">
 								</div>
 								<div class="panel-footer collapsed">
-									<h4 class="panel-title">How do I install the 3DO videos?</h4>
+									<h4 class="panel-title">How do I install the content?</h4>
 								</div>
 							</div>
 						</div>
@@ -78,7 +78,7 @@
 				<div class="modal-content">
 					<header class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title">How do you install the mods?</h4>
+						<h4 class="modal-title">What the heck is a .diff?</h4>
 					</header>
 					<div class="modal-body">
 						<p class="indent justify">The .diff files are here only because I thought it would more efficient than to upload
@@ -98,29 +98,34 @@
 				</div><!-- /.modal-content -->
 			</div><!-- /.modal-dialog -->
 		</article><!-- /.modal -->
-		<article class="modal fade" id="3dovideo" tabindex="-1" role="dialog" aria-labelledby="code" aria-hidden="true">
+		<article class="modal fade" id="content" tabindex="-1" role="dialog" aria-labelledby="code" aria-hidden="true">
 			<div class="modal-dialog" role="document">
 				<div class="modal-content">
 					<header class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title">How do I install the 3DO videos?</h4>
+						<h4 class="modal-title">How do I install the content?</h4>
 					</header>
 					<div class="modal-body">
+						<p class="indent justify">
+							For this is example I will be using the 3DO videos package but this works for any of the content packages.
+							To start, download the 3DO video package on the <a href="./Downloads">Downloads</a> page and make note of where
+							you downloaded it.
+						</p>
 						<h4>Windows</h4>
-						<p class="indent justify">To make things easier on the community I have made available all the videos to
-							download in one handy .zip file. You can get this file on the <a href="./Downloads">Downloads</a> page.</p>
-						<p class="justify">To use them just extract the folder from within the zip file to your
+						<p class="justify">Copy the <code>uqm-0.7.0-3dovideos.uqm</code> file to your
 							<code>addons</code> directory. Which by default is <br /><br />
 							<code>C:\Program Files\The Ur-Quan Masters\content\addons\</code><br />
 							or <br />
 							<code>C:\Program Files (x86)\The Ur-Quan Masters\content\addons\</code> in 64bit Windows<br /><br />
-							After that you can just load up UQM and opt to use the 3DO videos instead of the PC slides.</p>
+							After that you can load up UQM and opt to use the 3DO videos instead of the PC slides in the settings menu.
+							Make sure you restart UQM after you choose to use the 3DO videos so that it loads them properly.
+						</p>
 						<hr />
 						<h4>MacOS X</h4>
 						<p class="justify">
 							Right click on the UQM app and select <code>Show Package Contents</code><br/>
 							Navigate to <code>Contents -> Resources -> content -> addons</code><br/>
-							Extract the <code>uqm-0.7.0-3dovideos.zip</code> file into the <code>addons</code> folder.
+							Move or copy the <code>uqm-0.7.0-3dovideos.uqm</code> file into the <code>addons</code> folder.
 						</p>
 					</div>
 					<footer class="modal-footer">
@@ -158,7 +163,7 @@
 						<p class="indent justify">
 							In this example I will assume you installed the MegaMod .app into the Applications folder: <br />
 							For those that are already familiar with using the Terminal commandline, arguments using the <i>open</i> command should be a walk in the cake.
-							Simply open up your Terminal and type in: <code>open -a "The Ur-Quan Masters MegaMod.app" --args</code> or <code>open -a "The Ur-Quan Masters HD MegaMod.app" --args</code>
+							Simply open up your Terminal and type in: <code>open "/Applications/The Ur-Quan Masters MegaMod.app" --args</code> or <code>open "/Applications/The Ur-Quan Masters HD MegaMod.app" --args</code>
 							Depending on the version you installed. Then you type in whichever commandline argument you wish after. So if you wanted the headstart cheat you'd type in: 
 							<code>--headstart</code> After <code>--args</code><br />
 							You can put in as many commandline arguments you want after: <code>--args</code>
@@ -177,7 +182,7 @@
 							Open the uqm.cfg file with any text editor you have. Inside there should be a nice unordered list of options which include all of the cheat options.
 							Again I'll use headstart as an example. Find: <code>headStart = BOOLEAN:false</code> Change, "false" to, "true" and save the the changes.
 						</p>
-						<h5>Using the CMD Line Automator</h5>
+						<h5>Using the CMDLine Automator</h5>
 						<p class="justify">
 							This process assumes you installed UQM or UQM-HD in the Applications folder.
 						</p>
@@ -188,7 +193,7 @@
 						</p>
 						<p class="indent justify">
 							From here on the process is the same as using the commandline options except that after you're done adding in the options you save the file and run it.
-							You can put the CMD Line Automator anywhere you want, all it does is open up the app using the commandline options.
+							You can put the CMDLine Automator anywhere you want, all it does is open up the app using the commandline options.
 						</p>
 					</div>
 					<footer class="modal-footer">
