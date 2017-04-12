@@ -87,7 +87,8 @@
 									<dt>godMode / --godmode</dt>
 									<dd>
 										This is a lengthy one: This makes any ship you control indestructible, including the landers. 
-										Also refills your ship's energy every time you fire either one of your weapons. <br />
+										Also refills your ship's energy every time you fire either one of your weapons and allows your
+										lander to land on spot<br />
 										Here is a brief list of other things godMode does: 
 											<li>Orz marines do not harm player</li>
 											<li>Pkunk resurrection is 100% for the player</li>
@@ -99,11 +100,10 @@
 									</dd>
 									<dt>timeDilation / --timedilation</dt>
 									<dd>
-										Slows down the game clock. Interplanetary is 3 minutes and Hyperspace is 30 seconds.
-									</dd>
-									<dt>skipIntro / --skipintro</dt>
-									<dd>
-										Skips the Logo (if the FMV option is active) and the Intro
+										Slows down or speeds up the game clock depending on the option selected
+											<li>0 = Normal game clock | IP = 30 seconds | HS = 5 seconds</li>
+											<li>1 = Slow game clock | IP = 3 minutes | HS = 30 seconds</li>
+											<li>2 = Fast game clock | IP = 5 seconds | HS = 1 second</li>
 									</dd>
 								</dl>
 							</div>
@@ -115,25 +115,23 @@
 									</dd>
 									<dt>unlockShips / --unlockships</dt>
 									<dd>
-										Unlocks the Vux, Melnorme, Ilwrath, Mycon, Slylandro, Ur-Quan, and Kohr-Ah ships for building
-										in the shipyard.
+										Unlocks all the ships available in the main game for construction at the shipyard. Persists through game saves.
 									</dd>
 									<dt>headStart / --headstart</dt>
 									<dd>
-										Equips your flagship with full thrusters and jets, 2 fuel tanks, 2 crewpods, 2 storage bays, 
-										2 forward blasters, 4 dynamos, max landers, 1000 radioactives, and 1000 bio-units at the start of a new game
+										Gives you all of the minerals in the Sol system, Fwiffo, and the Moonbase so you can skip the New Game slog.
 									</dd>
 									<dt>unlockUpgrades / --unlockupgrades</dt>
 									<dd>
 										Unlocks all of the Melnorme tech upgrades.
 									</dd>
-									<dt>fastForward / --fastForward</dt>
+									<dt>infiniteRU / --infiniteRU</dt>
 									<dd>
-										Speeds up the game clock. Interplanetary is 5 seconds and Hyperspace is 1 second.
+										Give you virtually infinite R.U. while the cheat is active. Does not persist through game saves.
 									</dd>
-									<dt>landerMods / --landermods</dt>
+									<dt>skipIntro / --skipintro</dt>
 									<dd>
-										Disables the random landing location and doubles the storage capacity of the lander and your ship's storage bays.
+										Skips the Logo (if the FMV option is active) and the Intro
 									</dd>
 									<dt>FMV / --fmv</dt>
 									<dd>
@@ -169,6 +167,7 @@
 									<li>Soul Reaver's Melnorme dialog pack</li>
 									<li>Matt Bentley's Utwig dialog fix</li>
 									<li>Matt Bentley's Shofixti audio normalization</li>
+									<li>Sero Menu for 1x, ship labels for all of ships in the shipyard</li>
 									<li>
 										Matt Bentley's subtitle fixes for Mycon, Pkunk, Spathiwa Safe Ones, Slylandro, Starbase Commander, Talking Pet, Utwig, and Vux
 									</li>
@@ -189,14 +188,15 @@
 							<li>Arilou have a 5% chance of appearing in a star system in their SOI</li>
 							<li>Heap size has been changed back to 10kb for Classic and up to 32kb for HD</li>
 							<li>All Spathi ships retreat when they put themselves under a Slave Shield</li>
-							<li>Bump the version up to 0.7.2e</li>
-							<li>The commandline and .cfg file cheat system</li>
+							<li>Bump the version up to 0.7.3</li>
+							<li>The commandline, .cfg file, and new Setup Menu cheat system</li>
 							<h4> HD Only </h4>
 							<li>Optional content auto-load support added:
 								<ul>									
 									<li>Matt Bentley's extra nebulae: 22 with the content, 17 without</li>
 									<li>Matt Bentley's HD ship info screens</li>
 									<li>My own fix for the Vux comm screen in low-res</li>
+									<li>Sero Menu, a new menu made by me with the help of darklord42</li>
 								</ul>
 							</li>
 							<li>Fixed cursor snap so that trying to pick Sol no longer selects Sirius unless you zoom in. - MB</li>

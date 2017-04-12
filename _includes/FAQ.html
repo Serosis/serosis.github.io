@@ -135,66 +135,89 @@
 			</div><!-- /.modal-dialog -->
 		</article><!-- /.modal -->
 		<article class="modal fade" id="cheats" tabindex="-1" role="dialog" aria-labelledby="code" aria-hidden="true">
-			<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-dialog" role="document">
 				<div class="modal-content">
 					<header class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 						<h4 class="modal-title">How do you use the cheats?</h4>
 					</header>
 					<div class="modal-body">
-						<h4>Windows</h4>
-						<p class="indent justify">
-							For Windows you can use the cheats through commandline, batch file, in the uqm.cfg file, or in a shortcut. 
-							Say you wanted to use a desktop shortcut, you would right-click the shortcut and go into its properties
-							and add any cheat at the end of the "Target:". It should look like <a class="js-mediaSwipe" href="./img/landmarks/CheatMode.png" >this.</a>
-						</p>
-						<p class="indent justify">
-							I would advise against using the uqm.cfg method simply because the cheats are off by default and if you were to change
-							any settings while in UQM it would reset the uqm.cfg file. In other words, get the settings how you want them first before
-							applying cheats.
-						</p>
-						<hr />
-						<h4>MacOS X</h4>
-						<p class="indent justify">
-							For OS X things get a bit more complicated. You can run commandline arguments using the <i>open</i> command, add them to the <i>.cfg</i>, 
-							or use the Automator script I included with the app.
-						</p>
-						<h5>Commandline</h5>
-						<p class="indent justify">
-							In this example I will assume you installed the MegaMod .app into the Applications folder: <br />
-							For those that are already familiar with using the Terminal commandline, arguments using the <i>open</i> command should be a walk in the cake.
-							Simply open up your Terminal and type in: <code>open "/Applications/The Ur-Quan Masters MegaMod.app" --args</code> or <code>open "/Applications/The Ur-Quan Masters HD MegaMod.app" --args</code>
-							Depending on the version you installed. Then you type in whichever commandline argument you wish after. So if you wanted the headstart cheat you'd type in: 
-							<code>--headstart</code> After <code>--args</code><br />
-							You can put in as many commandline arguments you want after: <code>--args</code>
-						</p>
-						<h5>Editing the uqm.cfg</h5>
-						<p class="indent justify">
-							Word of warning. Changes to the .cfg file are reset every time you enter the setup menu in-game. So make whatever changes you need in-game before
-							editing the .cfg
-						</p>
-						<p class="indent justify">
-							To edit the .cfg file you have to run UQM or UQM-HD at least once and go to their respective setup menus. This creates (and resets) the uqm.cfg file.<br />
-							Open Finder, on the Menu Bar select: <code>Go -> Go To Folder...</code> And type in either: <code>~/.uqm/</code> or <code>~/.uqmhd/</code> Depending on the 
-							version you installed This brings you to the user folder that contains the uqm.cfg file.
-						</p>
-						<p class="indent justify">
-							Open the uqm.cfg file with any text editor you have. Inside there should be a nice unordered list of options which include all of the cheat options.
-							Again I'll use headstart as an example. Find: <code>headStart = BOOLEAN:false</code> Change, "false" to, "true" and save the the changes.
-						</p>
-						<h5>Using the CMDLine Automator</h5>
-						<p class="justify">
-							This process assumes you installed UQM or UQM-HD in the Applications folder.
-						</p>
-						<p class="indent justify">
-							Copy <i>CMD Line Automator</i> wherever you'd like. Open Automator, you can search for it in Spotlight or open it up directly from your Applications folder.
-							You will be greeted with a, "new file" window, at the bottom select <code>Open an Existing Document...</code> and select the <i>CMD Line Automator</i> file.
-							It should look something <a class="js-mediaSwipe" href="./img/landmarks/Automator.png">like this.</a>
-						</p>
-						<p class="indent justify">
-							From here on the process is the same as using the commandline options except that after you're done adding in the options you save the file and run it.
-							You can put the CMDLine Automator anywhere you want, all it does is open up the app using the commandline options.
-						</p>
+						<div>
+							<p class="indent justify">
+								As of the new release the cheats can now be activated in the Setup Menu to make things easier for everybody. The commandline options
+								still work if you'd like to use those instead.
+							</p>
+						</div>
+						<div class="panel-group">
+							<div class="panel panel-uqm ">
+								<div class="panel-heading collapsed" data-toggle="collapse" data-target="#Windows">
+									<h4 class="panel-title">Windows</h4>
+								</div>
+								<div id="Windows" class="panel-collapse collapse">
+									<div class="panel-body">
+										<p class="indent justify">
+											For Windows you can use the cheats through commandline, batch file, in the uqm.cfg file, or in a shortcut. 
+											Say you wanted to use a desktop shortcut, you would right-click the shortcut and go into its properties
+											and add any cheat at the end of the "Target:". It should look like <a class="js-mediaSwipe" href="./img/landmarks/CheatMode.png" >this.</a>
+										</p>
+										<p class="indent justify">
+											I would advise against using the uqm.cfg method simply because the cheats are off by default and if you were to change
+											any settings while in UQM it would reset the uqm.cfg file. In other words, get the settings how you want them first before
+											applying cheats.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="panel panel-uqm ">
+								<div class="panel-heading collapsed" data-toggle="collapse" data-target="#macOS">
+									<h4 class="panel-title">macOS</h4>
+								</div>
+								<div id="macOS" class="panel-collapse collapse">
+									<div class="panel-body">
+										<p class="indent justify">
+											For OS X things get a bit more complicated. You can run commandline arguments using the <i>open</i> command, add them to the <i>.cfg</i>, 
+											or use the Automator script I included with the app.
+										</p>
+										<h5>Commandline</h5>
+										<p class="indent justify">
+											In this example I will assume you installed the MegaMod .app into the Applications folder: <br />
+											For those that are already familiar with using the Terminal commandline, arguments using the <i>open</i> command should be a walk in the cake.
+											Simply open up your Terminal and type in: <code>open "/Applications/The Ur-Quan Masters MegaMod.app" --args</code> or <code>open "/Applications/The Ur-Quan Masters HD MegaMod.app" --args</code>
+											Depending on the version you installed. Then you type in whichever commandline argument you wish after. So if you wanted the headstart cheat you'd type in: 
+											<code>--headstart</code> After <code>--args</code><br />
+											You can put in as many commandline arguments you want after: <code>--args</code>
+										</p>
+										<h5>Editing the uqm.cfg</h5>
+										<p class="indent justify">
+											Word of warning. Changes to the .cfg file are reset every time you enter the setup menu in-game. So make whatever changes you need in-game before
+											editing the .cfg
+										</p>
+										<p class="indent justify">
+											To edit the .cfg file you have to run UQM or UQM-HD at least once and go to their respective setup menus. This creates (and resets) the uqm.cfg file.<br />
+											Open Finder, on the Menu Bar select: <code>Go -> Go To Folder...</code> And type in either: <code>~/.uqm/</code> or <code>~/.uqmhd/</code> Depending on the 
+											version you installed This brings you to the user folder that contains the uqm.cfg file.
+										</p>
+										<p class="indent justify">
+											Open the uqm.cfg file with any text editor you have. Inside there should be a nice unordered list of options which include all of the cheat options.
+											Again I'll use headstart as an example. Find: <code>headStart = BOOLEAN:false</code> Change, "false" to, "true" and save the the changes.
+										</p>
+										<h5>Using the CMDLine Automator</h5>
+										<p class="justify">
+											This process assumes you installed UQM or UQM-HD in the Applications folder.
+										</p>
+										<p class="indent justify">
+											Copy <i>CMD Line Automator</i> wherever you'd like. Open Automator, you can search for it in Spotlight or open it up directly from your Applications folder.
+											You will be greeted with a, "new file" window, at the bottom select <code>Open an Existing Document...</code> and select the <i>CMD Line Automator</i> file.
+											It should look something <a class="js-mediaSwipe" href="./img/landmarks/Automator.png">like this.</a>
+										</p>
+										<p class="indent justify">
+											From here on the process is the same as using the commandline options except that after you're done adding in the options you save the file and run it.
+											You can put the CMDLine Automator anywhere you want, all it does is open up the app using the commandline options.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 					<footer class="modal-footer">
 						<button type="button" class="btn btn-uqm" data-dismiss="modal">Close</button>
